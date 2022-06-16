@@ -1,0 +1,357 @@
+@media screen and (min-width: 1024px) {
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: clamp(20rem, calc(20rem + 2vw), 22rem);
+        overflow: hidden;
+        box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+        border-radius: 1em;
+        background: #ece9e6;
+        background: linear-gradient(to right, #ffffff, #ece9e6);
+    }
+
+    .textPres {
+        text-align: center;
+        margin: 4%;
+    }
+      
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px;
+        gap: 2rem;
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+      
+    .img {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+      
+    .lien {
+        margin-bottom: 3%;
+        text-align: center;
+        color: black;
+    }
+      
+    .lien:hover {
+        color: #e10600;
+    }
+      
+    .annees {
+        display: flex;
+        background: #e10600;
+        padding: 2%;
+    }
+      
+    .annee {
+        width: 14%;
+        text-align: center;
+    }
+      
+    .titre {
+        text-align: center;
+        margin-bottom: 2%;
+        text-transform: uppercase;
+        font-size: 300%;
+    }
+      
+    .active {
+        background-color: black;
+        color: white;
+    }
+      
+    .annee:hover {
+        background-color: black;
+        color: white;
+    }
+      
+    .body {
+        font-family: f1;
+        position: relative;
+    }
+
+    .footer {
+        position: absolute;
+        display: flex;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 100%;
+    }
+
+    .footerLink {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bodyContact {
+        display: flex;
+        position: relative;
+        font-family: f1;
+    }
+
+    .formulaireContact {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+
+    .buttonContact {
+        width: 50%;
+        margin: auto;
+    }
+    
+    .cardTitle {
+        text-align: center;
+        padding: 5%;
+    }
+      
+    @font-face {
+        font-family: "f1";
+        src: local("f1"), url(./Formula1-Regular.ttf) format("truetype");
+    }
+    
+    .test {
+        width: 100%;
+    }
+    
+    .container_race_details {
+        display: flex;
+    }
+    
+    .left {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        margin-left: 3%;
+    }
+    
+    .right {
+        width: 50%;
+    }
+    
+    .drivers {
+        display: flex;
+        margin-bottom: 3%;
+    }
+    
+    .number {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 3%;
+    }
+    
+    .team {
+        margin-left: 3%;
+    }
+    
+    .image_brand {
+        width: 30px;
+    }
+    
+    .number_driver {
+        display: flex;
+    }
+    
+    .driver {
+        margin: auto;
+    }
+    
+    .titreSection {
+        font-size: larger;
+        margin-bottom: 3%;
+    }
+    
+    .information_item {
+        margin-bottom: 3%;
+    }
+    
+    .raceTitle {
+        font-size: xx-large;
+        text-align: center;
+        margin: 3%;
+    }
+}
+
+
+@media screen and (max-width: 1023px) and (min-width: 0px) {      
+    .cards {
+        display: flex;
+        flex-direction: column;
+        width: clamp(20rem, calc(20rem + 2vw), 22rem);
+        overflow: hidden;
+        box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+        border-radius: 1em;
+        background: #ece9e6;
+        background: linear-gradient(to right, #ffffff, #ece9e6);
+    }
+      
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        max-width: 1200px;
+        gap: 2rem;
+        margin-top: 3%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+      
+    .img {
+        max-width: 100%;
+        display: block;
+        object-fit: cover;
+    }
+      
+    .lien {
+        margin-bottom: 3%;
+        text-align: center;
+        color: black;
+    }
+      
+    .lien:hover {
+        color: #e10600;
+    }
+      
+    .annees {
+        display: flex;
+        background: #e10600;
+        padding: 2%;
+    }
+      
+    .annee {
+        width: 14%;
+        text-align: center;
+    }
+      
+    .titre {
+        text-align: center;
+        margin-bottom: 2%;
+        text-transform: uppercase;
+        font-size: 300%;
+    }
+      
+    .active {
+        background-color: black;
+        color: white;
+    }
+      
+    .annee:hover {
+        background-color: black;
+        color: white;
+    }
+      
+    .body {
+        font-family: f1;
+    }
+    
+    .cardTitle {
+        text-align: center;
+        padding: 5%;
+    }
+      
+    @font-face {
+        font-family: "f1";
+        src: local("f1"), url(./Formula1-Regular.ttf) format("truetype");
+    }
+    
+    .test {
+        width: 100%;
+    }
+    
+    .container_race_details {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .left {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .right {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .black_line {
+        border: 3px solid black;
+        width: 100%;
+        height: 3%;
+    }
+    
+    .drivers {
+        display: flex;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .number {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 3%;
+    }
+    
+    .team {
+        margin-left: 3%;
+    }
+    
+    .image_brand {
+        width: 30px;
+    }
+    
+    .number_driver {
+        display: flex;
+    }
+    
+    .driver {
+        margin: auto;
+    }
+    
+    .titreSection {
+        font-size: larger;
+        margin-bottom: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .information_item {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 3%;
+    }
+    
+    .raceTitle {
+        font-size: xx-large;
+        text-align: center;
+        margin: 3%;
+    }
+
+    .footer {
+        position: absolute;
+        display: flex;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        width: 100%;
+    }
+
+    .footerLink {
+        width: 100%;
+        text-align: center;
+    }
+}
