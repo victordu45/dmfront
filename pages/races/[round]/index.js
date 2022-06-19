@@ -27,7 +27,7 @@ export default function Race({ race }) {
   return (
     <div className="body">
       {race.map(({ raceName, Circuit, time, date, Results }) => (
-        <div>
+        <div key={raceName}>
           <div className="raceTitle">{raceName}</div>
           <div className="container_race_details">
             <div className="left">
