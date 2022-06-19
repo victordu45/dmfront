@@ -9,7 +9,7 @@ function ContactForm() {
                 <p className='message'>Message envoyé</p>
                 <div className='lienContact'>
                     <Link href={"https://dmfront-victordu45.vercel.app"}>
-                        <div>Retour à l'accueil</div>
+                        <div>Retour à l&apos;accueil</div>
                     </Link>
                 </div>
             </div>
