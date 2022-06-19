@@ -21,22 +21,24 @@ export default function Home({ races }) {
       </div>
       <div className="container">
         {races.map(({ raceName, round, Circuit }) => (
-          <Link href={`/races/${round}`}>
-            <motion.div
-              className="cards"
-              whileHover={{
-                scale: 1.1,
-                transition: { duration: 0.2 },
-              }}
-            >
-              <img
-                className="img"
-                src={`./track_map/${raceName.replaceAll(" ", "_")}.png`}
-                alt=""
-              />
-              <div className="cardTitle">{raceName}</div>
-            </motion.div>
-          </Link>
+          <div key={round}>
+            <Link href={`/races/${round}`}>
+              <motion.div
+                className="cards"
+                whileHover={{
+                  scale: 1.1,
+                  transition: { duration: 0.2 },
+                }}
+              >
+                <img
+                  className="img"
+                  src={`./track_map/${raceName.replaceAll(" ", "_")}.png`}
+                  alt=""
+                />
+                <div className="cardTitle">{raceName}</div>
+              </motion.div>
+            </Link>
+          </div>
         ))}
       </div>
       <div className="footer">
