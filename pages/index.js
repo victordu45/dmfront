@@ -15,9 +15,9 @@ export async function getStaticProps() {
 export default function Home({ races }) {
   return (
     <div className="body">
-      <div className="titre">L'année 2020 en Formule 1</div>
+      <div className="titre">L&apos;année 2020 en Formule 1</div>
       <div className="textPres">
-        Ce site a pour but de présenter la saison 2020 de Formule 1. Vous retrouverez sur cette page la liste des courses de l'année. En cliquant sur un circuit vous accèderez aux détails de la course. Vous trouverez alors, le lieu où s'est déroulée la course (pays, ville), la date et l'heure de la course, le tracé et le classement des pilotes avec leur écurie respective.
+        Ce site a pour but de présenter la saison 2020 de Formule 1. Vous retrouverez sur cette page la liste des courses de l&apos;année. En cliquant sur un circuit vous accèderez aux détails de la course. Vous trouverez alors, le lieu où s&apos;est déroulée la course (pays, ville), la date et l&apos;heure de la course, le tracé et le classement des pilotes avec leur écurie respective.
       </div>
       <div className="container">
         {races.map(({ raceName, round, Circuit }) => (
