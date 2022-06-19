@@ -87,26 +87,6 @@
         width: 100%;
         text-align: center;
     }
-
-    .bodyContact {
-        display: flex;
-        position: relative;
-        font-family: f1;
-    }
-
-    .formulaireContact {
-        display: flex;
-        flex-direction: column;
-        width: 70%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 20%;
-    }
-
-    .buttonContact {
-        width: 50%;
-        margin: auto;
-    }
     
     .cardTitle {
         text-align: center;
@@ -177,6 +157,69 @@
         font-size: xx-large;
         text-align: center;
         margin: 3%;
+    }
+
+    .bodyContact {
+        font-family: f1;
+    }
+
+    .formulaireContact {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+
+    .buttonContact {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 10%;
+        margin: auto;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3%;
+    }
+
+    .input label {
+        margin-bottom: 1%;
+    }
+
+    .containerMessage {
+        font-family: f1;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        position: fixed;
+        z-index: 3;
+        background-color: rgba(217, 217, 217, 0.7);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message {
+        margin: auto;
+        font-size: larger;
+    }
+
+    .lienContact {
+        margin: auto;
+    }
+
+    .lienContact:hover {
+        text-decoration: underline;
+        cursor: pointer;
     }
 }
 
@@ -354,4 +397,68 @@
         width: 100%;
         text-align: center;
     }
+
+    .containerMessage {
+        font-family: f1;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        position: fixed;
+        z-index: 3;
+        background-color: rgba(217, 217, 217, 0.7);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .message {
+        margin: auto;
+        font-size: larger;
+    }
+
+    .lienContact {
+        margin: auto;
+    }
+
+    .lienContact:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .bodyContact {
+        font-family: f1;
+    }
+
+    .formulaireContact {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20%;
+    }
+
+    .buttonContact {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        width: 30%;
+        margin: auto;
+    }
+
+    .input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 3%;
+    }
+
+    .input label {
+        margin-bottom: 1%;
+    }
 }
+
+
