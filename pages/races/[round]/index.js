@@ -43,7 +43,7 @@ export default function Race({ race }) {
                 <div className="right">
                   <div className="titreSection">Classement</div>
                   {Results.map(({ Driver, position, Constructor }) => (
-                    <div className="drivers">
+                    <div className="drivers" key={position}>
                       <div className="number_driver">
                         <div className="number">{position}</div>
                         <div className="driver">{Driver.givenName}{Driver.familyName}</div>
